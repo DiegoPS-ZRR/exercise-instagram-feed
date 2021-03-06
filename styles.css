@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(219, 245, 226);
+    margin: 0px;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+h1 {
+    margin: 0%;
+    text-align: center;
+    padding: 10px;
+}
+
+h2 {
+    margin: 0%;
+}
+
+/* CLASS */
+
+.header {
+    background: whitesmoke;
+}
+
+
+.post {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    margin-top: 40px;
+    background: white;
+}
+
+.title {
+    padding: 8px;
+    display: flex;
+}
+
+.title span {
+    flex-grow: 2;
+    text-align: right;
+    color: thistle;
+}
+
+
+.description {
+    padding: 8px;
+
+}
